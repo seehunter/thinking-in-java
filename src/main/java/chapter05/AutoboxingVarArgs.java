@@ -1,7 +1,7 @@
 package chapter05;
 
 public class AutoboxingVarArgs {
-    public static void f(Integer... args) {
+    static void f(Integer... args) {
         for (Integer i : args) {
             System.out.print(i + " ");
         }
