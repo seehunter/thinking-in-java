@@ -1,5 +1,7 @@
 package book.thinginginjava.chapter05;
 
+// Simple use of the "this" keyword
+
 public class e_Leaf {
     int i = 0;
 
