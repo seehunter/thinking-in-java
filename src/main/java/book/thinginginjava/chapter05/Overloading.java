@@ -6,8 +6,8 @@ class Tree {
     int height;
 
     Tree() {
-        System.out.println("Planting a seedling");
         height = 0;
+        System.out.println("Planting a seedling");
     }
 
     Tree(int initialHeight) {
@@ -24,7 +24,7 @@ class Tree {
     }
 }
 
-public class c_Overloading {
+public class Overloading {
     public static void main(String[] args) {
         for (int i = 0; i < 5; i++) {
             Tree t = new Tree(i);

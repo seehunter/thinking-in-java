@@ -2,7 +2,7 @@ package book.thinginginjava.chapter05;
 
 // Overloading based on the order of the arguments
 
-public class d_OverloadingOrder {
+public class OverloadingOrder {
     static void f(String s, int i) {
         System.out.println("String: " + s + ", int: " + i);
     }

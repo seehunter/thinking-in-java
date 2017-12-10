@@ -22,7 +22,7 @@ class Book {
     }
 }
 
-public class h_TerminationCondition {
+public class TerminationCondition {
     public static void main(String[] args) {
         Book novel = new Book(true);
         // Proper cleanup:

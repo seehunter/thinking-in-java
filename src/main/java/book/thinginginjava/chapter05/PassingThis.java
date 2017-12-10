@@ -20,7 +20,7 @@ class Apple {
     }
 }
 
-public class f_PassingThis {
+public class PassingThis {
     public static void main(String[] args) {
         new Person().eat(new Apple());
     }
