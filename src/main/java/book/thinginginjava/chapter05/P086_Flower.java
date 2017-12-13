@@ -2,28 +2,28 @@ package book.thinginginjava.chapter05;
 
 // Calling constructors with "this"
 
-public class Flower {
+public class P086_Flower {
     int petalCount = 0;
     String s = "initial value";
 
-    Flower(int petals) {
+    P086_Flower(int petals) {
         petalCount = petals;
         System.out.println("Constructor w/ int arg only, petalCount = " + petalCount);
     }
 
-    Flower(String ss) {
+    P086_Flower(String ss) {
         System.out.println("Constructor w/ String arg only, s = " + ss);
         s = ss;
     }
 
-    Flower(String s, int petals) {
+    P086_Flower(String s, int petals) {
         this(petals);
         //! this(s); //Can't call two!
         this.s = s;
         System.out.println("String & int args");
     }
 
-    Flower() {
+    P086_Flower() {
         this("hi", 47);
         System.out.println("Default constructor (no args)");
     }
@@ -34,7 +34,7 @@ public class Flower {
     }
 
     public static void main(String[] args) {
-        Flower x = new Flower();
+        P086_Flower x = new P086_Flower();
         x.printPetalCount();
     }
 }

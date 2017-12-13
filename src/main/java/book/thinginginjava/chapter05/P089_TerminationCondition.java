@@ -17,12 +17,12 @@ class Book {
         if (checkedOut) {
             System.out.println("Error: checked out");
             // Normally, you'll also do this:
-            // super.finalize(); //Call the base class version
+            // super.finalize(); // Call the base class version
         }
     }
 }
 
-public class TerminationCondition {
+public class P089_TerminationCondition {
     public static void main(String[] args) {
         Book novel = new Book(true);
         // Proper cleanup:
