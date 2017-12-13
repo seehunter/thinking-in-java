@@ -2,10 +2,10 @@ package book.thinginginjava.chapter05;
 
 // Simple use of the "this" keyword
 
-public class Leaf {
+public class P084_Leaf {
     int i = 0;
 
-    Leaf increment() {
+    P084_Leaf increment() {
         i++;
         return this;
     }
@@ -15,7 +15,11 @@ public class Leaf {
     }
 
     public static void main(String[] args) {
-        Leaf l = new Leaf();
+        P084_Leaf l = new P084_Leaf();
         l.increment().increment().increment().print();
     }
 }
+
+/*
+i = 3
+ */

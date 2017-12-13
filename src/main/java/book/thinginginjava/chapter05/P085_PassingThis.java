@@ -20,8 +20,12 @@ class Apple {
     }
 }
 
-public class PassingThis {
+public class P085_PassingThis {
     public static void main(String[] args) {
         new Person().eat(new Apple());
     }
 }
+
+/*
+Yummy
+ */

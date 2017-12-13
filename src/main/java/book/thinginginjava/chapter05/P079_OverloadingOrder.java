@@ -1,8 +1,8 @@
 package book.thinginginjava.chapter05;
 
-// Overloading based on the order of the arguments
+// Overloading based on the order of the arguments.
 
-public class OverloadingOrder {
+public class P079_OverloadingOrder {
     static void f(String s, int i) {
         System.out.println("String: " + s + ", int: " + i);
     }
@@ -16,3 +16,8 @@ public class OverloadingOrder {
         f(99, "int first");
     }
 }
+
+/*
+String: String first, int: 11
+int: 99, String: int first
+ */
