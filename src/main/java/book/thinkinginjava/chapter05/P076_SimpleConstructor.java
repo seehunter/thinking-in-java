@@ -1,4 +1,4 @@
-package book.thinginginjava.chapter05;
+package book.thinkinginjava.chapter05;
 
 // Demonstration of a simple constructor
 

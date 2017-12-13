@@ -1,4 +1,4 @@
-package book.thinginginjava.chapter05;
+package book.thinkinginjava.chapter05;
 
 class Person {
     public void eat(Apple apple) {
