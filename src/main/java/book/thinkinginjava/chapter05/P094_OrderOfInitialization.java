@@ -33,13 +33,12 @@ public class P094_OrderOfInitialization {
         h.f(); // Shows that construction is done
     }
 }
-/*
 
+/*
 Window(1)
 Window(2)
 Window(3)
 House()
 Window(33)
 f()
-
  */
