@@ -1,4 +1,4 @@
-package book.thinkinginjava.chapter05;
+package tij.chapter05;
 
 // Overloading based on the order of the arguments.
 

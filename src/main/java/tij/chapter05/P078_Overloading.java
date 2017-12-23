@@ -1,4 +1,4 @@
-package book.thinkinginjava.chapter05;
+package tij.chapter05;
 
 // Demonstration of both constructor and ordinary method overloading.
 

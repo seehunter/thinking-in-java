@@ -1,4 +1,4 @@
-package book.thinkinginjava.chapter05;
+package tij.chapter05;
 
 // Using finalize() to detect an object that hasn't been properly cleaned up.
 

@@ -1,4 +1,4 @@
-package book.thinkinginjava.chapter05;
+package tij.chapter05;
 
 // Simple use of the "this" keyword
 
